@@ -10,8 +10,8 @@
   "persist": "config.ini",
   "checkver": {
     "useragent": "Mozilla/5.0",
-    "regex": "(?<=/GenP.v)[^-]+(?=-CGP.zip)",
-  }
+    "regex": "(?<=/GenP.v)[^-]+(?=-CGP.zip)"
+  },
   "autoupdate": {
     "url": "https://gen.paramore.su/GenP.v$version-CGP.zip",
     "hash": "sha256"
