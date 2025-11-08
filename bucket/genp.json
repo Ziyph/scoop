@@ -6,6 +6,7 @@
   "url": "https://gen.paramore.su/GenP.v3.7.1-CGP.zip",
   "hash": "797253add1f9fde1ecdbc49b02f4529746aa1b6005fcbd3817adddcf3e295eb9",
   "bin": "GenP-v3.7.1.exe",
+  "shortcuts": [["GenP-v$version.exe", "GenP"]],
   "persist": "config.ini",
   "checkver": "(?<=/GenP.v)[^-]+(?=-CGP.zip)",
   "autoupdate": {
