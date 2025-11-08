@@ -8,6 +8,5 @@ This repository is my personal [Scoop](https://scoop.sh/) bucket. Here, you'll f
 
 Currently, this bucket offers the following software:
 
-- [GenP](https://gen.paramore.su/)
 - [WinPaletter](https://github.com/Abdelrhman-AK/WinPaletter)
 - [masir](https://github.com/LGUG2Z/masir)
