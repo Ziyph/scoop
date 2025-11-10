@@ -2,7 +2,10 @@
   "version": "1.0.9.7",
   "description": "Advanced Windows appearance editor",
   "homepage": "https://github.com/Abdelrhman-AK/WinPaletter",
-  "license": ["MIT", "CPOL-1.02"],
+  "license": {1
+    "identifier": "MIT,CPOL-1.02",
+    "url": "https://github.com/Abdelrhman-AK/WinPaletter/blob/master/LICENSE"
+  },
   "url": "https://github.com/Abdelrhman-AK/WinPaletter/releases/download/v1.0.9.7/WinPaletter.zip",
   "hash": "86d3cbca2f18e0566c0d678daebcb91812ce1e333d840b748c6db3301869fd89",
   "bin": "WinPaletter.exe",
@@ -11,9 +14,9 @@
   "autoupdate": {
     "url": "https://github.com/Abdelrhman-AK/WinPaletter/releases/download/v$version/WinPaletter.zip",
     "hash": {
-      "mode": "extract",
-      "url": "https://github.com/Abdelrhman-AK/WinPaletter/releases/download/v$version/WinPaletter.zip",
-      "find": "([a-fA-F0-9]{64})"
+        "mode": "json",
+        "url": "https://api.github.com/repos/Abdelrhman-AK/WinPaletter/releases/latest",
+        "jsonpath": "$.assets[?(@.name == 'WinPaletter.zip')].digest"
     }
   }
 }
