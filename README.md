@@ -8,5 +8,6 @@ This repository is my personal [Scoop](https://scoop.sh/) bucket. Here, you'll f
 
 Currently, this bucket offers the following software:
 
-- [WinPaletter](https://github.com/Abdelrhman-AK/WinPaletter)
+- [Equibop](https://github.com/Equicord/Equibop)
 - [masir](https://github.com/LGUG2Z/masir)
+- [WinPaletter](https://github.com/Abdelrhman-AK/WinPaletter)
